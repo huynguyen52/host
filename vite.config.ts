@@ -11,7 +11,13 @@ export default defineConfig({
       remotes: {
         service: 'http://localhost:5001/assets/remoteEntry.js',
       },
-      shared: ['react', 'react-dom'],
+      shared: [
+        'react',
+        'react-dom',
+        'i18next',
+        'i18next-http-backend',
+        'react-i18next',
+      ],
     }),
   ],
   build: {

@@ -3,3 +3,9 @@ declare module 'service/Button' {
 
   export default Button;
 }
+
+declare module 'service/i18n' {
+  const i18n: import('i18next').i18n;
+
+  export default i18n;
+}
